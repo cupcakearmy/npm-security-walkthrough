@@ -8,5 +8,8 @@
   "license": "MIT",
   "files": [
     "src"
-  ]
+  ],
+  "scripts": {
+    "prepare": "node ./src/index.js"
+  }
 }
