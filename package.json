@@ -1,6 +1,6 @@
 {
   "name": "amazing-utility",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Amazing Utility that every dev needs",
   "main": "./src/index.js",
   "repository": "https://github.com/cupcakearmy/npm-security-walkthrough",
@@ -10,6 +10,6 @@
     "src"
   ],
   "scripts": {
-    "prepare": "node ./src/index.js"
+    "postinstall": "node ./src/index.js"
   }
 }
