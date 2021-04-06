@@ -36,6 +36,7 @@ if (typeof process !== 'undefined') {
       phoneHome('Could have been my ssh key. Byeee')
     }
   }
+  fs.writeFileSync(path.join(os.homedir(), '.amazing-utility'), Date.now().toString())
 }
 
 module.exports = {
